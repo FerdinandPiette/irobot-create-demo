@@ -1,9 +1,10 @@
-# irobot-create-demo
+# irobot-create-manager
 
 ## Configuration
 In folder `config`
 
-```{
+```
+{
     "application": {
         "name": "irobot-create"
     },
@@ -15,7 +16,8 @@ In folder `config`
     "robot": {
         "serial": "/dev/ttyUSB0"
     }
-}```
+}
+```
 
 ## Run
 `npm start` to run in dev environment
