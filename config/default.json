@@ -1,0 +1,13 @@
+{
+    "application": {
+        "name": "irobot-create"
+    },
+    "mqtt": {
+        "protocol": "mqtt",
+        "host": "127.0.0.1",
+        "port": "1883"
+    },
+    "robot": {
+        "serial": "/dev/ttyUSB0"
+    }
+}
