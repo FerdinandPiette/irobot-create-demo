@@ -1,4 +1,5 @@
 # irobot-create-manager
+Need a MQTT server and an iRobot Create connected with Serial Port.
 
 ## Configuration
 In folder `config`
