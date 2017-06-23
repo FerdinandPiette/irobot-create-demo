@@ -1,15 +1,19 @@
 {
-  "name": "irobot-create-demo",
+  "name": "irobot-create-manager",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "start": "gulp run",
+    "start-prod": "export NODE_ENV=production && gulp run",
     "clean": "gulp clean"
   },
   "author": "Ferdinand Piette",
   "license": "ISC",
   "dependencies": {
     "babel-runtime": "^6.23.0",
+    "config": "^1.26.1",
+    "irobot-create-open-interface": "^1.0.0",
+    "mqtt": "^2.9.0",
     "serialport": "^4.0.7"
   },
   "devDependencies": {
